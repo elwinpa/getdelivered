@@ -1,0 +1,125 @@
+.registration-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  
+  .close-icon {
+    position: absolute;
+    margin-left: 235px;
+    margin-bottom: 543px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+  }
+ 
+  .registration-form-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        margin-bottom: 8px;
+      }
+
+      input {
+        padding: 8px;
+        margin-bottom: 16px;
+      }
+      .error-message {
+        color: red; // Set the color to red for error messages
+        margin-top: 5px; // Add some space above the error message
+      }
+
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #45a049;
+        }
+      }
+    }
+  }
+}
+/*adding login styles here*/
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  .close-icon-login {
+    position: absolute;
+    margin-left: 170px;
+    
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+  }
+
+  .login-form-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        margin-bottom: 8px;
+      }
+
+      input {
+        padding: 8px;
+        margin-bottom: 16px;
+      }
+      
+      .error-message {
+        color: red; // Set the color to red for error messages
+        margin-top: 5px; // Add some space above the error message
+      }
+      
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #45a049;
+
+        }
+      }
+    }
+  }
+}

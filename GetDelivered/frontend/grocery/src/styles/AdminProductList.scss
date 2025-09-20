@@ -1,0 +1,71 @@
+.table-container {
+    margin: 20px;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: rgb(141 186 211 / 96%);
+    color: white;
+  }
+  
+  .product-image {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+  }
+
+  .custom-dropdown {
+    
+    font-size: 16px;
+    padding: 8px;
+    margin: 0 20px;
+  
+  }
+
+  .admin-filter {
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-button {
+    padding: 12px 20px;
+    border-radius: 22px;
+    background-color: rgb(6, 173, 6);
+    color: white;
+    border: none;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .admin-edit-icon {
+    padding: 0 5px;
+    color: rgb(109, 109, 204);
+  }
+
+  .admin-delete-icon {
+    padding: 0 5px;
+    color: red;
+  }
+  .admin-portal {
+    text-align: center;
+    color: slateblue;
+    font-family: monospace;
+    font-size: 30px;
+  }
+  .admin-container {
+    min-height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    padding: 30px 0;
+  }

@@ -1,0 +1,17 @@
+@import url('./styles/Header.scss');
+@import url('./styles/ProductCards.scss');
+@import url('./styles/StaticCards.scss');
+@import url('./styles/Catagories.scss');
+@import url('./styles/Cart.scss');
+@import url('./styles/RegistrationSuccessOverlay.scss');
+@import url('./styles/AdminProductList.scss');
+@import url('./styles/AddProduct.scss');
+@import url('./styles//Checkout.scss');
+.main-content {
+    pointer-events: auto;
+    overflow: hidden;
+    padding: 50px 50px;
+}
+
+
+  

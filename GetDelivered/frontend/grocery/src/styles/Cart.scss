@@ -1,0 +1,106 @@
+.cart-sidebar {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    height: 100vh; 
+    width: 300px; 
+    background-color: #f0f0f0; 
+    border-left: 1px solid #ccc;
+    padding: 20px; 
+    overflow-y: auto; 
+    z-index: 100;
+}
+
+.cart-close {
+    position: fixed;
+    cursor: pointer;
+    right: 15px;
+}
+
+.cart-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    
+    img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 30px;
+    }
+}
+.cart-container {
+    margin-top: 70px;
+    overflow-y: scroll;
+    height: 50vh;
+  }
+  
+  /* Webkit (Chrome, Safari, Edge) */
+  .cart-container::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .cart-container::-webkit-scrollbar-thumb {
+    background-color: teal;
+    border-radius: 8px;
+  }
+  
+  .cart-container::-webkit-scrollbar-thumb:hover {
+    background-color: teal;
+  }
+  
+  /* Firefox */
+  .cart-container {
+    scrollbar-color: #888 transparent;
+    scrollbar-width: thin;
+  }
+  
+  .cart-container::-moz-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+  }
+  
+  .cart-container::-moz-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+.delete-icon{
+    color: red;
+}
+
+.no-item{
+    text-align: center;
+}
+
+.checkout {
+    position: absolute;
+    bottom: 140px;
+    width: 270px;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 27px;
+    i {
+        color:white;
+    }
+}
+
+.product-count {
+    position: absolute;
+    top: 7px;
+    left: 60px;
+    background-color: rgb(6, 173, 6);;
+    border-radius: 20px;
+    padding: 3px 7px;
+    font-size: 12px;
+    color: white;
+}

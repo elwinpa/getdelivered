@@ -1,0 +1,66 @@
+.carousel-item {
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+    display: flex !important;
+    width: 80% !important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow values as needed */
+    transition: box-shadow 0.3s ease;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 15px;
+    
+}
+.carousel-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow values for hover state */
+  }
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    
+    padding: 8px;
+    cursor: pointer;
+    z-index: 1;
+    color: lightcoral;
+  }
+  
+  .next {
+    right: 5px;
+  }
+  
+  .prev {
+    left: -30px;
+  }
+
+ 
+.orders-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  
+}
+.order-main {
+  padding: 100px 80px;
+  .product-header {
+    padding-top: 40px;
+  }
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

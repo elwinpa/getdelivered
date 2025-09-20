@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 10px;
+  }
+  
+  .navbar-search input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 400px;
+    margin: 0 !important;
+  }
+  
+  .navbar-search button[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .navbar-cart {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: lightslategray;
+    border-radius: 12px;
+    color: white;
+    font-size: 19px;
+  }
+  .navbar-cart button{
+    border: none;
+    background: none;
+    color: white;
+    margin-right: 5px;
+    font-size: 19px;
+  }
+  .navbar-cart span {
+    margin-right: 5px;
+  }
+  
+  .navbar-cart a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar-cart .cart-items {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #FF4136;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .logo {
+    width: 80px;
+  }
+  .navbar-login-register a{
+    padding: 9px 13px;
+    margin: 0 3px;
+    background-color: teal;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .user-name{
+    margin-right: 5px;
+  }

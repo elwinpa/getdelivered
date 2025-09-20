@@ -1,0 +1,101 @@
+/* styles.css */
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-img-top {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+
+  .product-header {
+    
+    margin-bottom: 30px;
+    font-family: monospace;
+    font-size: 20px;
+  }
+
+  .product-cards {
+    margin-top: 50px;
+  }
+
+  .back-categories{
+    cursor: pointer;
+  }
+  
+  .add-to-cart{
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    border-radius: 22px;
+    background-color: rgb(6, 173, 6);
+    color: white;
+    border: none;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+
+  .add-to-cart:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .quantity {
+    background-color:  rgb(6, 173, 6);
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    transition: box-shadow 0.3s;
+    margin-bottom: 20px;
+    button {
+      background-color: rgb(6, 173, 6);
+      border: none;
+      color: white;
+      font-size: 20px;
+    }
+}
+
+.quantity:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+  
